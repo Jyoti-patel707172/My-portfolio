@@ -9,7 +9,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/jyoti-patel-677141281",
     github: "https://github.com/Jyoti-patel707172",
     intro: "Aspiring MERN Full-Stack Developer with MCA degree, skilled in building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js.",
-    profileImage: "./public/profile.jpg" // Add your image in public folder
+    profileImage: "/profile.jpg" // Add your image in public folder
   },
 
   about: {
@@ -26,7 +26,7 @@ export const portfolioData = {
       "Team player with leadership qualities",
       "Always eager to learn and grow"
     ],
-     profileImage: "./public/profile_about.jpg" 
+     profileImage: "/profile_about.jpg" 
   },
 
   skills: {
