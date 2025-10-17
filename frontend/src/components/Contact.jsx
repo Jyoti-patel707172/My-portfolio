@@ -28,7 +28,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL || "http://localhost:5000"}/api/contact`,
+        `${import.meta.env.VITE_BACKEND_URL || "https://my-portfolio-backend-ayk8.onrender.com"}/api/contact`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
